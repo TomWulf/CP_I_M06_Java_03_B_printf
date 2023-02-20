@@ -38,5 +38,9 @@ public class Main
         System.out.printf("%-25s (Age: %3d) Fav: %6.2f\n", userName3, age3, favCost3);
         System.out.printf("%-25s (Age: %3d) Fav: %6.2f\n", userName4, age4, favCost4);
 
+        double salary = 123.23456;
+        String salaryDisplay = String.format("%10.2f", salary);
+
+        System.out.println("Salary is: " + salaryDisplay);
     }
 }
